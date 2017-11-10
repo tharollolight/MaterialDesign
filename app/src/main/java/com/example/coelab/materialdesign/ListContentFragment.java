@@ -81,7 +81,6 @@ public class ListContentFragment extends Fragment{
             a.recycle();
 
         }
-
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             return new ViewHolder(LayoutInflater.from(parent.getContext()), parent);
