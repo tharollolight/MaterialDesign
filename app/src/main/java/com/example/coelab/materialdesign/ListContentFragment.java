@@ -75,7 +75,7 @@ public class ListContentFragment extends Fragment{
             mPlaceAvators = new Drawable[a.length()];
 
             for(int i = 0; i < mPlaceAvators.length; i++){
-                
+
                 mPlaceAvators[i] = a.getDrawable(i);
             }
             a.recycle();
